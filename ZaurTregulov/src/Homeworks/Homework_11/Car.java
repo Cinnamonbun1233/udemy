@@ -32,9 +32,8 @@ class CarTest {
     }
 
     public void changeColor(Car c1, Car c2) {
-        Car c3 = new Car(null, null, 0);
-        c3.color = c1.color;
+        String color = c1.color;
         c1.color = c2.color;
-        c2.color = c3.color;
+        c2.color = color;
     }
 }
