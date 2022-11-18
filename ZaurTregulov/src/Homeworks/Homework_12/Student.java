@@ -28,13 +28,13 @@ public class Student {
         }
 
         if (st1.course == st2.course) {
-            System.out.print(", одинковый курс");
+            System.out.print(", одинаковый курс");
         } else {
             System.out.print(", разный курс");
         }
 
         if (st1.grade == st2.grade) {
-            System.out.println(" и одинковый балл");
+            System.out.println(" и одинаковый балл");
         } else {
             System.out.println(", и разный балл");
         }
