@@ -2,17 +2,22 @@ package Lessons.Lesson_16;
 
 public class Test1 {
 
-
     public static void main(String[] args) {
 
         String s1 = "privet";
         String s2 = "abcdefgabcd";
         String s3 = "   HI!   ";
 
+        StringBuilder sb1 = new StringBuilder("Hihi");
+        String s4 = new String(sb1); //создание String через StringBuilder
+
+        System.out.println(sb1);
+        System.out.println(s4);
+
         int a = s1.length(); //длина String
         System.out.println(a);
 
-        char c1 = s1.charAt(3); //возвращает char, соответсвующий поряковому номеру в String
+        char c1 = s1.charAt(3); //возвращает char, соответсвующий порядковому номеру в String
         System.out.println(c1);
 
         int i1 = s1.indexOf('t'); //возвращает номер char или части String в String
@@ -36,10 +41,10 @@ public class Test1 {
         boolean b3 = s1.endsWith("vet"); //заканчивается ли String с указанного в параметре String
         System.out.println(b3);
 
-        String st1 = s1.substring(3, 5); //возващает кусочек String по порядковому номеру
+        String st1 = s1.substring(3, 5); //возвращает кусочек String по порядковому номеру
         System.out.println(st1);
 
-        String st2 = s1.substring(3); //возващает кусочек String по порядковому номеру
+        String st2 = s1.substring(3); //возвращает кусочек String по порядковому номеру
         System.out.println(st2);
 
         String st3 = s3.trim(); //убирает пробелы в начале и конце String
@@ -62,7 +67,6 @@ public class Test1 {
 
         boolean b4 = s1.contains("pri"); //содержит ли String часть String
         System.out.println(b4);
-
     }
 }
 
@@ -70,7 +74,6 @@ class Employee {
 
     double salary;
     boolean isManager;
-
 
     public Employee(double salary, boolean isManager) {
         this.salary = salary;

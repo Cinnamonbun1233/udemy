@@ -2,19 +2,19 @@ package Homeworks.Homework_16;
 
 public class Email {
 
-    public void email(String emailAddress){
-       for (int i = 0; i < emailAddress.length();i++){
-          if (emailAddress.charAt(i) == '@'){
-              int beginIndex = i +1;
-              int endIndex = emailAddress.indexOf('.',i);
-              String address = emailAddress.substring(beginIndex,endIndex);
-              System.out.println(address);
-          }
-       }
+    public void email(String emailAddress) {
+        for (int i = 0; i < emailAddress.length(); i++) {
+            if (emailAddress.charAt(i) == '@') {
+                int beginIndex = i + 1;
+                int endIndex = emailAddress.indexOf('.', i);
+                String address = emailAddress.substring(beginIndex, endIndex);
+                System.out.println(address);
+            }
+        }
     }
 }
 
-class EmailTest{
+class EmailTest {
 
     public static void main(String[] args) {
 
