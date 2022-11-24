@@ -12,7 +12,10 @@ public class Main {
 
         StringBuilder sb1 = new StringBuilder("Privet");
         StringBuilder sb2 = new StringBuilder("Privet");
+        StringBuilder sb3 = new StringBuilder("Poka");
         boolean b = ravenstvo(sb1, sb2);
+        boolean b2 = ravenstvo(sb1,sb3);
         System.out.println(b);
+        System.out.println(b2);
     }
 }
