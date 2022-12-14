@@ -23,7 +23,7 @@ public class Main {
         System.out.print(" }");
     }
 
-    public static int[] sortirovka(int[] array) {
+    public static void sortirovka(int[] array) {
         int a;
         for (int i = 0; i < array.length; i++) {
             int min = array[i];
@@ -40,7 +40,6 @@ public class Main {
                 array[index] = a;
             }
         }
-        return array;
     }
 
     public static void main(String[] args) {
