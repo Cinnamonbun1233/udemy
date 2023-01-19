@@ -1,6 +1,6 @@
 package Homeworks.Homework_2;
 
-public class Homework2 {
+public class Homework_2 {
 
     byte b1 = 12;
     byte b2 = 014;

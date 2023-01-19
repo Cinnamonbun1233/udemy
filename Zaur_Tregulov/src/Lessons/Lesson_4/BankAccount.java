@@ -1,14 +1,12 @@
 package Lessons.Lesson_4;
 
 public class BankAccount {
-
     int id;
     String name;
     double balance;
 }
 
 class BankPerson {
-
     public static void main(String[] args) {
 
         BankAccount bankAccount1 = new BankAccount();

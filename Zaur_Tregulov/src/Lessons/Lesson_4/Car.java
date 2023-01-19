@@ -1,7 +1,6 @@
 package Lessons.Lesson_4;
 
 public class Car {
-
     String color;
     String engine;
 
@@ -18,7 +17,6 @@ public class Car {
 }
 
 class CarType {
-
     public static void main(String[] args) {
 
         Car car1 = new Car("white", "V12");

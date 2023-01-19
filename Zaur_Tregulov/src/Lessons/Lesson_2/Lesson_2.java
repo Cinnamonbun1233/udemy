@@ -1,7 +1,6 @@
 package Lessons.Lesson_2;
 
-public class Lesson2 {
-
+public class Lesson_2 {
     public static void main(String[] args) {
 
         byte b1 = 10;

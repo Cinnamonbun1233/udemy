@@ -1,7 +1,6 @@
 package Homeworks.Homework_4;
 
 public class Student {
-
     int studentIdNumber;
     String name;
     String surname;
@@ -12,7 +11,6 @@ public class Student {
 }
 
 class StudentPerson {
-
     public static void main(String[] args) {
         Student student1 = new Student();
         Student student2 = new Student();
@@ -42,8 +40,8 @@ class StudentPerson {
         student3.averageEcon = 8.7;
         student3.averageLang = 9.3;
 
-        System.out.println("Средняя оценка студента: " + student1.surname + " " + student1.name + " - " + (student1.averageMath + student1.averageEcon + student1.averageLang)/3);
-        System.out.println("Средняя оценка студента: " + student2.surname + " " + student2.name + " - " + (student2.averageMath + student2.averageEcon + student2.averageLang)/3);
-        System.out.println("Средняя оценка студента: " + student3.surname + " " + student3.name + " - " + (student3.averageMath + student3.averageEcon + student3.averageLang)/3);
+        System.out.println("Средняя оценка студента: " + student1.surname + " " + student1.name + " - " + (student1.averageMath + student1.averageEcon + student1.averageLang) / 3);
+        System.out.println("Средняя оценка студента: " + student2.surname + " " + student2.name + " - " + (student2.averageMath + student2.averageEcon + student2.averageLang) / 3);
+        System.out.println("Средняя оценка студента: " + student3.surname + " " + student3.name + " - " + (student3.averageMath + student3.averageEcon + student3.averageLang) / 3);
     }
 }

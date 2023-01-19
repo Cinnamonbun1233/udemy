@@ -1,8 +1,6 @@
 package Homeworks.Homework_3;
 
-public class Homework3 {
-
-
+public class Homework_3 {
     public static void main(String[] args) {
 
         int i1 = 5;
