@@ -12,7 +12,6 @@ public class Method {
 }
 
 class MethodTest {
-
     public static void main(String[] args) {
 
         Method method = new Method();

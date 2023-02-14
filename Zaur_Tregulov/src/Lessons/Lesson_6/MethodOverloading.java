@@ -20,7 +20,6 @@ public class MethodOverloading {
 }
 
 class MethodOverloadingTest {
-
     public static void main(String[] args) {
 
         MethodOverloading methodOverloading = new MethodOverloading();

@@ -24,7 +24,6 @@ public class Homework6 {
 }
 
 class Homework6Test {
-
     public static void main(String[] args) {
 
         Homework6 homework6 = new Homework6();

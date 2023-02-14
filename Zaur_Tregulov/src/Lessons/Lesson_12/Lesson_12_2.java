@@ -37,7 +37,6 @@ public class Lesson_12_2 {
         } else {
             str = null;
         }
-
         System.out.println(str);
     }
 }

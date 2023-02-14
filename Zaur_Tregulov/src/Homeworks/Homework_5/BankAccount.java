@@ -18,7 +18,6 @@ public class BankAccount {
 }
 
 class BankAccountTest {
-
     public static void main(String[] args) {
 
         BankAccount bankAccount = new BankAccount();

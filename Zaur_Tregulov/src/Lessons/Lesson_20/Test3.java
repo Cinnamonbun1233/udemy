@@ -1,12 +1,13 @@
 package Lessons.Lesson_20;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Test3 {
 
     public static void main(String[] args) {
 
-        ArrayList<StringBuilder> list = new ArrayList<>();
+        List<StringBuilder> list = new ArrayList<>();
         StringBuilder sb1 = new StringBuilder("hello");
         StringBuilder sb2 = new StringBuilder("ok");
         StringBuilder sb3 = new StringBuilder("privet");
@@ -28,6 +29,5 @@ public class Test3 {
         for (StringBuilder sb : list) {
             System.out.print(sb + " ");
         }
-
     }
 }

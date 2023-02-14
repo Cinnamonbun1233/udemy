@@ -22,7 +22,6 @@ public class Employee {
 }
 
 class EmployeeTest {
-
     public static void main(String[] args) {
 
         Employee employee1 = new Employee(7243, "Иванов", 27, 100000, "ИТ");

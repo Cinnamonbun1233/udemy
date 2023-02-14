@@ -31,6 +31,5 @@ public class Student {
 
         changeName(st2);
         System.out.println(st2.name);
-
     }
 }

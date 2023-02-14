@@ -19,8 +19,9 @@ public class Test8 {
 
         Iterator<String> it = list1.iterator();
         while (it.hasNext()) {
-            it.next();
-            it.remove();
+            //it.next();
+            //it.remove();
+            System.out.println(it.next());
         }
     }
 }

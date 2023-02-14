@@ -33,7 +33,5 @@ public class Test2 {
         for (StringBuilder s : list) {
             System.out.print(s + " ");
         }
-
-
     }
 }

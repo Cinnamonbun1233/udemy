@@ -11,7 +11,6 @@ public class A {
         Student st1 = new Student("Ivan", 2);
         System.out.println(c2.a);
         System.out.println(Student.count);
-
     }
 }
 

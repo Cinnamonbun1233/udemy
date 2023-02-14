@@ -20,7 +20,6 @@ public class Geometry {
 }
 
 class GeometryTest {
-
     public static void main(String[] args) {
 
         Geometry geometry = new Geometry();

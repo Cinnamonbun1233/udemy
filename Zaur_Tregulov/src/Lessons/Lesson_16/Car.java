@@ -15,6 +15,8 @@ public class Car {
         Car c1 = new Car("red", "V6");
         Car c2 = c1.adc("black");
         System.out.println(c1.color);
+        System.out.println(c2.color);
+        System.out.println(c2.engine);
     }
 
     public Car adc(String color) {

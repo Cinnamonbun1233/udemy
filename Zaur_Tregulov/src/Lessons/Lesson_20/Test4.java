@@ -15,8 +15,8 @@ public class Test4 {
         for (StringBuilder sb : list) {
             System.out.print(sb + " ");
         }
-        System.out.println();
 
-        System.out.println(list.indexOf("poka"));
+        System.out.println();
+        System.out.println(list.indexOf(new StringBuilder("poka")));
     }
 }

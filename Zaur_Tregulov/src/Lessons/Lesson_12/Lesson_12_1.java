@@ -30,7 +30,5 @@ public class Lesson_12_1 {
         } else {
             System.out.println("ЗП отличная");
         }
-
-
     }
 }

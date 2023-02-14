@@ -26,7 +26,6 @@ public class Employee2 {
 }
 
 class EmployeeTest2 {
-
     public static void main(String[] args) {
 
         Employee2 employee1 = new Employee2(1, "Иванов", 25);
