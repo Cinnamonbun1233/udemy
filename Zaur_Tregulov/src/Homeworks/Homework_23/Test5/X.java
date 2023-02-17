@@ -1,4 +1,4 @@
-package Homeworks.Lesson_23.Test5;
+package Homeworks.Homework_23.Test5;
 
 public class X {
     String s1 = "privet";

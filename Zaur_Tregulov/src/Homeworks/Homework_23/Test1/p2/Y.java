@@ -1,10 +1,10 @@
-package Homeworks.Lesson_23.Test1.p2;
+package Homeworks.Homework_23.Test1.p2;
 
-import Homeworks.Lesson_23.Test1.p1.X;
+import Homeworks.Homework_23.Test1.p1.X;
 
 public class Y extends X {
-    //Y() {
-    //}
+    Y() {
+    }
 
     public void abc() {
         System.out.println('Y');

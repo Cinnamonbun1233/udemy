@@ -43,7 +43,7 @@ class Teacher extends Employee {
 }
 
 class Driver {
-    int carBrand;
+    String carBrand;
 
     void drive() {
         System.out.println("Водить");

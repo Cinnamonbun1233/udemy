@@ -1,8 +1,8 @@
-package Homeworks.Lesson_23.Test1.p1;
+package Homeworks.Homework_23.Test1.p1;
 
 public class X {
-    //X() {
-    //}
+    public X() {
+    }
 
     public void abc() {
         System.out.println('X');

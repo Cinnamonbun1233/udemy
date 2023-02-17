@@ -1,4 +1,4 @@
-package Homeworks.Lesson_23.Test3;
+package Homeworks.Homework_23.Test3;
 
 public class X {
     public X() {

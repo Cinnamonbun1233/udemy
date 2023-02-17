@@ -1,4 +1,4 @@
-package Homeworks.Lesson_23.Test4;
+package Homeworks.Homework_23.Test4;
 
 class X {
 }

@@ -1,20 +1,20 @@
-package Homeworks.Lesson_23.Test2.p2;
+package Homeworks.Homework_23.Test2.p2;
 
-import Homeworks.Lesson_23.Test2.p1.X;
+import Homeworks.Homework_23.Test2.p1.X;
 
 public class Y extends X {
 
     @Override
-    public void abc(){
+    public void abc() {
         System.out.println('Y');
     }
 
-    public void def(){
+    public void def() {
         Y y = new Y();
         y.abc();
     }
 
-    public void ghi(){
+    public void ghi() {
         X x = new Y();
         //x.abc();
     }
