@@ -42,13 +42,7 @@ public class Main {
         System.out.println("-------------------------------------");
 
         for (Speakable s : array2) {
-            if (s instanceof Swordfish) {
-                Swordfish sw = (Swordfish) s;
-                System.out.println(sw.name);
-                sw.sleep();
-                sw.eat();
-                sw.swim();
-            } else if (s instanceof Penguin) {
+            if (s instanceof Penguin) {
                 Penguin p = (Penguin) s;
                 System.out.println(p.name);
                 p.sleep();
