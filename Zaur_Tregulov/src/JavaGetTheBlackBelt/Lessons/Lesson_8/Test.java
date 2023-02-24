@@ -31,7 +31,6 @@ public class Test {
         list2.add("Poka");
         showListInfo(list2);
 
-
         List<? extends Number> list4 = new ArrayList<>();
         List<? super Number> list6 = new ArrayList<>();
     }
