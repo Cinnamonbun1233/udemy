@@ -18,13 +18,17 @@ public class BinarySearch {
         arrayList.add(-30);
         arrayList.add(19);
 
-        int index1 = Collections.binarySearch(arrayList, 12);
-        System.out.println(index1);
+//        int index1 = Collections.binarySearch(arrayList, 12);
+//        System.out.println(index1);
+
+//        Collections.sort(arrayList);
+//        int index2 = Collections.binarySearch(arrayList, 12);
+//        System.out.println(index2);
 
         Collections.sort(arrayList);
-        int index2 = Collections.binarySearch(arrayList, 12);
-        System.out.println(index2);
-
-
+        Collections.reverse(arrayList);
+        System.out.println(arrayList);
+        Collections.shuffle(arrayList);
+        System.out.println(arrayList);
     }
 }
