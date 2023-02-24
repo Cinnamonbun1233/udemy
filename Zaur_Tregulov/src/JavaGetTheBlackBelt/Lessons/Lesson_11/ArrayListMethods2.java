@@ -19,8 +19,11 @@ public class ArrayListMethods2 {
         System.out.println(studentArrayList);
 
         Student st6 = new Student("Мария", 'ж', 23, 3, 7.4);
-        studentArrayList.remove(st6);
+//        studentArrayList.remove(st6);
         System.out.println(studentArrayList);
+
+        int index = studentArrayList.indexOf(st6);
+        System.out.println(index);
     }
 }
 
@@ -50,12 +53,12 @@ class Student {
                 '}';
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Student student = (Student) o;
-        return sex == student.sex && age == student.age && course == student.course &&
-                Double.compare(student.avgGrade, avgGrade) == 0 && Objects.equals(name, student.name);
-    }
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (o == null || getClass() != o.getClass()) return false;
+            Student student = (Student) o;
+            return sex == student.sex && age == student.age && course == student.course &&
+                    Double.compare(student.avgGrade, avgGrade) == 0 && Objects.equals(name, student.name);
+        }
 }
