@@ -23,8 +23,6 @@ public class TreeMapEx {
         treeMap.put(5.5, st7);
         treeMap.put(3.2, st8);
 
-
-
 //        System.out.println(treeMap);
 //        System.out.println(treeMap.get(7.5));
 //        System.out.println(treeMap.remove(9.4));
