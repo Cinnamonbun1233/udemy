@@ -2,7 +2,6 @@ package JavaGetTheBlackBelt.Lesson_38;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 
 interface StudentChecks {
     boolean check(Student student);
