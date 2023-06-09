@@ -1,4 +1,6 @@
-package lesson_008.constructor;
+package lesson_008.service;
+
+import lesson_008.entity.Cat;
 
 public class SayCatService {
     public static String hello = "Hello from static";

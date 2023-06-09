@@ -1,4 +1,4 @@
-package lesson_006.fight_club;
+package lesson_006.entity;
 
 public class Cat {
     private String name;

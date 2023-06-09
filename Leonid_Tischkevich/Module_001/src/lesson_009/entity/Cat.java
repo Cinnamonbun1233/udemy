@@ -1,4 +1,4 @@
-package lesson_009.inheritance;
+package lesson_009.entity;
 
 public class Cat {
     private int age;

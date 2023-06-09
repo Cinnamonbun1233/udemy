@@ -1,7 +1,7 @@
-package lesson_007.bankSystem.service;
+package lesson_007.service;
 
-import lesson_007.bankSystem.entity.Account;
-import lesson_007.bankSystem.entity.Bill;
+import lesson_007.entity.Account;
+import lesson_007.entity.Bill;
 
 public class DepositService {
     public void deposit(Account account, int amount) {

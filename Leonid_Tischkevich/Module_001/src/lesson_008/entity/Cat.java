@@ -1,4 +1,4 @@
-package lesson_008.constructor;
+package lesson_008.entity;
 
 public class Cat {
     private String name;

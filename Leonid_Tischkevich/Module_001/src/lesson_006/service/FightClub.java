@@ -1,4 +1,6 @@
-package lesson_006.fight_club;
+package lesson_006.service;
+
+import lesson_006.entity.Cat;
 
 public class FightClub {
     public String fight(Cat firstCat, Cat secondCat) {

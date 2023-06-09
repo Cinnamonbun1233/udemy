@@ -1,6 +1,9 @@
-package lesson_008.constructor;
+package lesson_008;
 
-public class Constructor {
+import lesson_008.entity.Cat;
+import lesson_008.service.SayCatService;
+
+public class Main {
     public static void main(String[] args) {
         SayCatService sayCatService = new SayCatService();
 

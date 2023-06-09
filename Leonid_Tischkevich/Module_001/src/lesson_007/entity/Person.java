@@ -1,4 +1,4 @@
-package lesson_007.bankSystem.entity;
+package lesson_007.entity;
 
 public class Person {
     private String name;

@@ -1,4 +1,7 @@
-package lesson_009.inheritance;
+package lesson_009;
+
+import lesson_009.entity.British;
+import lesson_009.entity.Scottish;
 
 public class Main {
     public static void main(String[] args) {

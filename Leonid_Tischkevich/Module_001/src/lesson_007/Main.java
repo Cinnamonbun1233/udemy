@@ -1,11 +1,11 @@
-package lesson_007.bankSystem;
+package lesson_007;
 
-import lesson_007.bankSystem.entity.Account;
-import lesson_007.bankSystem.entity.Bill;
-import lesson_007.bankSystem.entity.Person;
-import lesson_007.bankSystem.service.DepositService;
-import lesson_007.bankSystem.service.PaymentService;
-import lesson_007.bankSystem.service.TransferService;
+import lesson_007.entity.Account;
+import lesson_007.entity.Bill;
+import lesson_007.entity.Person;
+import lesson_007.service.DepositService;
+import lesson_007.service.PaymentService;
+import lesson_007.service.TransferService;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,9 +1,9 @@
-package lesson_007.bankSystem.entity;
+package lesson_007.entity;
 
-public class Payment {
+public class Deposit {
     private Bill bill;
 
-    public Payment(Bill bill) {
+    public Deposit(Bill bill) {
         this.bill = bill;
     }
 

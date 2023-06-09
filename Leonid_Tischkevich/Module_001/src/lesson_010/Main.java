@@ -1,4 +1,8 @@
-package lesson_010.interfaces;
+package lesson_010;
+
+import lesson_010.entity.AbstractAnimal;
+import lesson_010.entity.Cat;
+import lesson_010.entity.Dog;
 
 public class Main {
     public static void main(String[] args) {

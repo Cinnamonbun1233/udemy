@@ -1,4 +1,4 @@
-package lesson_010.interfaces;
+package lesson_010.entity;
 
 public class Dog extends AbstractAnimal {
     @Override

@@ -1,4 +1,7 @@
-package lesson_006.fight_club;
+package lesson_006;
+
+import lesson_006.entity.Cat;
+import lesson_006.service.FightClub;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package lesson_007.bankSystem.service;
+package lesson_007.service;
 
-import lesson_007.bankSystem.entity.Account;
+import lesson_007.entity.Account;
 
 public class TransferService {
     public void transfer(Account accountFrom, Account accountTo, int amount) {

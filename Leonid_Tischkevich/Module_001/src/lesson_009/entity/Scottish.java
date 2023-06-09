@@ -1,11 +1,11 @@
-package lesson_009.inheritance;
+package lesson_009.entity;
 
 import java.util.Objects;
 
-public class British extends Cat {
+public class Scottish extends Cat {
     private String name;
 
-    public British(int age, String owner, String name) {
+    public Scottish(int age, String owner, String name) {
         super(age, owner);
         setName(name);
     }
@@ -22,8 +22,8 @@ public class British extends Cat {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        British british = (British) o;
-        return name.equals(british.name) && getAge() == british.getAge() && getOwner().equals(british.getOwner());
+        Scottish scottish = (Scottish) o;
+        return Objects.equals(getName(), scottish.getName());
     }
 
     @Override
