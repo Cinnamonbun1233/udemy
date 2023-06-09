@@ -8,17 +8,16 @@ public class CustomLinkedList<Element> implements Iterable<Element> {
     private int size;
 
     public void add(Element element) {
+        Node<Element> node;
         if (first == null) {
-            Node<Element> node = new Node<>(element, null, null);
+            node = new Node<>(element, null, null);
             first = node;
-            last = node;
-            size++;
         } else {
-            Node<Element> node = new Node<>(element, null, last);
+            node = new Node<>(element, null, last);
             last.next = node;
-            last = node;
-            size++;
         }
+        last = node;
+        size++;
     }
 
     public Element get(int index) {
@@ -64,7 +63,7 @@ public class CustomLinkedList<Element> implements Iterable<Element> {
 
     @Override
     public Iterator<Element> iterator() {
-        return new Iterator<Element>() {
+        return new Iterator<>() {
             private Node<Element> current = first;
 
             @Override

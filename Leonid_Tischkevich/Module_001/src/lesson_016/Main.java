@@ -1,4 +1,4 @@
-package lesson_016.algoritms;
+package lesson_016;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,6 +16,7 @@ public class Main {
 
         int[] mass = new int[]{8, 12, 2, 5, 89, 4, 15, 29};
         bubbleSort(mass);
+
         for (int element : mass){
             System.out.print(element + " ");
         }
