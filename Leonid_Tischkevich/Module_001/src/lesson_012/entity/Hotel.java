@@ -1,8 +1,8 @@
-package lesson_012.booking.entity;
+package lesson_012.entity;
 
 public class Hotel {
     private String name;
-    private Room[] rooms;
+    private final Room[] rooms;
 
     public Hotel(String name, Room[] rooms) {
         this.name = name;
@@ -19,9 +19,5 @@ public class Hotel {
 
     public Room[] getRooms() {
         return rooms;
-    }
-
-    public void setRooms(Room[] rooms) {
-        this.rooms = rooms;
     }
 }

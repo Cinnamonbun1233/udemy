@@ -1,9 +1,9 @@
-package lesson_012.booking.service;
+package lesson_012.service;
 
-import lesson_012.booking.entity.Bill;
-import lesson_012.booking.entity.Client;
-import lesson_012.booking.entity.Hotel;
-import lesson_012.booking.entity.Room;
+import lesson_012.entity.Bill;
+import lesson_012.entity.Client;
+import lesson_012.entity.Hotel;
+import lesson_012.entity.Room;
 
 public class BookingService {
     private static void validateFreeRooms(Hotel hotel, boolean isFreeRooms) {
@@ -41,6 +41,7 @@ public class BookingService {
         for (Room room : rooms) {
             if (room.isFree()) {
                 isFreeRooms = true;
+                break;
             }
         }
         validateFreeRooms(hotel, isFreeRooms);

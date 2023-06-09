@@ -1,4 +1,4 @@
-package lesson_012.booking.entity;
+package lesson_012.entity;
 
 public class Client {
     private String name;

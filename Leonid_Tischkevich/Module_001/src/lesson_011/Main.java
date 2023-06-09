@@ -1,4 +1,4 @@
-package lesson_011.wrappers;
+package lesson_011;
 
 public class Main {
     public static void main(String[] args) {

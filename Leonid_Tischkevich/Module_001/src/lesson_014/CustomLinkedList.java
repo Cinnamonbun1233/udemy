@@ -1,19 +1,19 @@
-package lesson_014.collections;
+package lesson_014;
 
 public class CustomLinkedList<Element> {
     private Node<Element> first;
     private Node<Element> last;
 
     public void add(Element element) {
+        Node<Element> node;
         if (first == null) {
-            Node<Element> node = new Node<>(element, null, null);
+            node = new Node<>(element, null, null);
             first = node;
-            last = node;
         } else {
-            Node<Element> node = new Node<>(element, null, last);
+            node = new Node<>(element, null, last);
             last.next = node;
-            last = node;
         }
+        last = node;
     }
 
     public Element get(int index) {

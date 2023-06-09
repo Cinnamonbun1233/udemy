@@ -1,10 +1,10 @@
-package lesson_012.booking;
+package lesson_012;
 
-import lesson_012.booking.entity.Bill;
-import lesson_012.booking.entity.Client;
-import lesson_012.booking.entity.Hotel;
-import lesson_012.booking.entity.Room;
-import lesson_012.booking.service.BookingService;
+import lesson_012.entity.Bill;
+import lesson_012.entity.Client;
+import lesson_012.entity.Hotel;
+import lesson_012.entity.Room;
+import lesson_012.service.BookingService;
 
 public class Main {
     public static void main(String[] args) {

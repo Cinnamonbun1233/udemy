@@ -1,4 +1,4 @@
-package lesson_014.collections;
+package lesson_014;
 
 public class LinkedListTest {
     public static void main(String[] args) {

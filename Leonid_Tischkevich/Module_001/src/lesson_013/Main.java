@@ -1,4 +1,4 @@
-package lesson_013.immutables;
+package lesson_013;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,7 +19,8 @@ public class Main {
         System.out.println(t.concat("DEF").concat("JKL"));
         System.out.println("\n");
 
-        StringBuffer stringBuffer = new StringBuffer("ABC");
+        StringBuffer stringBuffer;
+        stringBuffer = new StringBuffer("ABC");
         stringBuffer.append("DEG").append("JKL");
         System.out.println(stringBuffer);
     }

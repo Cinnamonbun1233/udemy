@@ -1,8 +1,8 @@
-package lesson_012.booking.entity;
+package lesson_012.entity;
 
 public class Room {
-    private int numberOfPerson;
-    private int cost;
+    private final int numberOfPerson;
+    private final int cost;
     private boolean free;
 
     public Room(int numberOfPerson, int cost, boolean free) {
@@ -15,16 +15,9 @@ public class Room {
         return numberOfPerson;
     }
 
-    public void setNumberOfPerson(int numberOfPerson) {
-        this.numberOfPerson = numberOfPerson;
-    }
 
     public int getCost() {
         return cost;
-    }
-
-    public void setCost(int cost) {
-        this.cost = cost;
     }
 
     public boolean isFree() {
