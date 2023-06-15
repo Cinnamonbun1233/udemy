@@ -1,4 +1,4 @@
-package lesson_002.exceptions;
+package lesson_002;
 
 public class Account {
     private Long id;

@@ -1,4 +1,4 @@
-package lesson_002.exceptions;
+package lesson_002;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class Main {
         accountRepository.add(account_2);
         accountRepository.add(account_3);
 
-        Account account = accountRepository.getById(4L);
-
+        Account account = accountRepository.getById(3L);
+        System.out.println(account);
     }
 }

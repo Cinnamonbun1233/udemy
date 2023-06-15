@@ -1,4 +1,4 @@
-package lesson_005.treeSet;
+package lesson_005;
 
 public class Team implements Comparable<Team> {
     private String name;
@@ -46,12 +46,6 @@ public class Team implements Comparable<Team> {
 
     @Override
     public int compareTo(Team o) {
-        if (this.score < o.score) {
-            return 1;
-        } else if (this.score > o.score) {
-            return -1;
-        } else {
-            return 0;
-        }
+        return Integer.compare(o.score, this.score);
     }
 }

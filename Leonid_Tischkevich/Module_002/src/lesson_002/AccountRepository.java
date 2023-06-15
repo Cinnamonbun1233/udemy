@@ -1,13 +1,14 @@
-package lesson_002.exceptions;
+package lesson_002;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class AccountRepository {
     private static AccountRepository INSTANCE;
-    private List<Account> accountList = new ArrayList<>();
+    private final List<Account> accountList = new ArrayList<>();
 
     private AccountRepository() {
+
     }
 
     public static AccountRepository getInstance() {
@@ -21,12 +22,12 @@ public class AccountRepository {
         accountList.add(account);
     }
 
-    public Account getById(Long id) {
+    public Account getById(Long id) throws AccountNotFoundException{
         for (Account account : accountList) {
             if (account.getId().equals(id)) {
                 return account;
             }
         }
-        throw new AccountNotFoundException("Аккаунт с id - '" + id + "' не найден");
+        throw new AccountNotFoundException("Аккаунт с id: '" + id + "' не найден");
     }
 }

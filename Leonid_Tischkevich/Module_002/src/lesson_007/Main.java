@@ -1,4 +1,4 @@
-package lesson_007.councurrency;
+package lesson_007;
 
 public class Main {
     public static void main(String[] args) {

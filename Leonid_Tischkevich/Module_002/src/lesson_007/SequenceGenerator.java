@@ -1,4 +1,4 @@
-package lesson_007.councurrency;
+package lesson_007;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

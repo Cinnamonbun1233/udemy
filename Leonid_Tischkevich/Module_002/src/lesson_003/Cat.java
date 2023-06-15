@@ -1,4 +1,4 @@
-package lesson_003.collection;
+package lesson_003;
 
 public class Cat {
     private String name;
@@ -17,19 +17,19 @@ public class Cat {
         this.name = name;
     }
 
-    @Override
-    public String toString() {
-        return "Cat{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                '}';
-    }
-
     public Integer getAge() {
         return age;
     }
 
     public void setAge(Integer age) {
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "Cat{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
     }
 }

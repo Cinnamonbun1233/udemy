@@ -1,4 +1,4 @@
-package lesson_003.collection;
+package lesson_003;
 
 public enum WeekDays {
     MONDAY(1),
@@ -8,7 +8,6 @@ public enum WeekDays {
     FRIDAY(5),
     SATURDAY(6),
     SUNDAY(7);
-
     private int dayNumberOfWeek;
 
     WeekDays(int dayNumberOfWeek) {

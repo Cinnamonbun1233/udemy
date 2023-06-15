@@ -1,11 +1,11 @@
-package lesson_005.treeSet;
+package lesson_005;
 
 import java.util.Comparator;
 import java.util.Random;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-public class TreeSetTest {
+public class Main {
     public static void main(String[] args) {
         SortedSet<Team> teams = new TreeSet<>(new Comparator<Team>() {
             @Override
