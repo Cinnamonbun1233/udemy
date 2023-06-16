@@ -44,4 +44,9 @@ public class AccountController {
     public AccountResponseDto deleteAccountById(@PathVariable Long id) {
         return new AccountResponseDto(accountService.deleteById(id));
     }
+
+    @GetMapping("/string")
+    public String getString(@RequestParam(name = "ABC", required = false, defaultValue = "DEF") String line) {
+        return "Hi-hi";
+    }
 }
