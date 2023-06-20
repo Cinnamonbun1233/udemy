@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    database: POSTGRESQL
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    url: jdbc:postgresql://localhost:5432/springhomework
+    username: postgres
+    password: 1D2cCf431Cm2Rzx56MpQ
+    driver-class-name: org.postgresql.Driver
