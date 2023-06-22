@@ -16,6 +16,8 @@
         <property name="baxterCat" ref="baxterCat"/>
     </bean>
 
-    <bean class="com.example.springcontext.CalculateCatStrengthBeanPostProcessor"/>
+    <bean class="com.example.springcontext.processor.CalculateCatStrengthBeanPostProcessor"/>
+
+    <bean class="com.example.springcontext.processor.PureTransactionalHandlerBeanPostProcessor"/>
 
 </beans>

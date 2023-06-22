@@ -1,4 +1,4 @@
-package com.example.springcontext;
+package com.example.springcontext.processor;
 
 import com.example.springcontext.annotation.CalculateCatStrength;
 import org.springframework.beans.BeansException;

@@ -1,7 +1,9 @@
 package com.example.springcontext.repository;
 
+import com.example.springcontext.annotation.PureTransactional;
 import com.example.springcontext.entity.CombatCat;
 
+@PureTransactional
 public class FightClubImpl implements FightClub {
     private CombatCat loriCat;
     private CombatCat baxterCat;

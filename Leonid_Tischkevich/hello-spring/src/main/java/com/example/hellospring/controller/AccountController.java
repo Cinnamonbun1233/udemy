@@ -4,6 +4,7 @@ import com.example.hellospring.dto.AccountRequestDto;
 import com.example.hellospring.dto.AccountResponseDto;
 import com.example.hellospring.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -25,7 +26,8 @@ public class AccountController {
 
     @PostMapping("/accounts")
     public Long createAccount(@RequestBody AccountRequestDto accountRequestDto) {
-        return accountService.createAccount(accountRequestDto.getName(), accountRequestDto.getEmail(), accountRequestDto.getBill());
+        return accountService.createAccount(accountRequestDto.getName(), accountRequestDto.getEmail(),
+                accountRequestDto.getBill());
     }
 
     @GetMapping("/accounts/{id}")
